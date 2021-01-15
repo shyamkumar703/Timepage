@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0154979625B16A9000942192 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154979525B16A9000942192 /* Colors.swift */; };
+		0154979C25B17DEF00942192 /* dayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154979B25B17DEF00942192 /* dayDetailsViewController.swift */; };
+		015497A425B1815700942192 /* classCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015497A325B1815700942192 /* classCollectionViewCell.swift */; };
+		015497B025B1930C00942192 /* todoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015497AF25B1930C00942192 /* todoCollectionViewCell.swift */; };
 		01F7638525B15C4800625DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7638425B15C4800625DC3 /* AppDelegate.swift */; };
 		01F7638725B15C4800625DC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7638625B15C4800625DC3 /* SceneDelegate.swift */; };
 		01F7638925B15C4800625DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7638825B15C4800625DC3 /* ViewController.swift */; };
@@ -15,6 +19,15 @@
 		01F7639125B15C4A00625DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F7638F25B15C4A00625DC3 /* LaunchScreen.storyboard */; };
 		01F7639C25B15C4B00625DC3 /* timepage_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7639B25B15C4B00625DC3 /* timepage_cloneTests.swift */; };
 		01F763A725B15C4B00625DC3 /* timepage_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F763A625B15C4B00625DC3 /* timepage_cloneUITests.swift */; };
+		01F763B925B15FCD00625DC3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F763B825B15FCD00625DC3 /* Roboto-Thin.ttf */; };
+		01F763BE25B15FD600625DC3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F763BD25B15FD600625DC3 /* Roboto-Regular.ttf */; };
+		01F763C325B15FDF00625DC3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F763C225B15FDF00625DC3 /* Roboto-Medium.ttf */; };
+		01F763C825B15FE800625DC3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F763C725B15FE800625DC3 /* Roboto-Light.ttf */; };
+		01F763CD25B15FF000625DC3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F763CC25B15FF000625DC3 /* Roboto-Bold.ttf */; };
+		01F763D625B162EA00625DC3 /* dayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F763D525B162EA00625DC3 /* dayTableViewCell.swift */; };
+		70A380732399EE141CDE90C1 /* Pods_timepage_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B036C66FA747A9D8F5DA7D /* Pods_timepage_clone.framework */; };
+		A57DACA1B79AFAC06CA1490F /* Pods_timepage_cloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6AA55695EE6E6A060AC65D /* Pods_timepage_cloneTests.framework */; };
+		F89BBA94494CD640D5144BF7 /* Pods_timepage_clone_timepage_cloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0213009220FF4E3CB8BAD604 /* Pods_timepage_clone_timepage_cloneUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0154979525B16A9000942192 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0154979B25B17DEF00942192 /* dayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayDetailsViewController.swift; sourceTree = "<group>"; };
+		015497A325B1815700942192 /* classCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classCollectionViewCell.swift; sourceTree = "<group>"; };
+		015497AF25B1930C00942192 /* todoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoCollectionViewCell.swift; sourceTree = "<group>"; };
 		01F7638125B15C4800625DC3 /* timepage-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timepage-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F7638425B15C4800625DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F7638625B15C4800625DC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,21 @@
 		01F763A225B15C4B00625DC3 /* timepage-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "timepage-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F763A625B15C4B00625DC3 /* timepage_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timepage_cloneUITests.swift; sourceTree = "<group>"; };
 		01F763A825B15C4B00625DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F763B825B15FCD00625DC3 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		01F763BD25B15FD600625DC3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		01F763C225B15FDF00625DC3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		01F763C725B15FE800625DC3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		01F763CC25B15FF000625DC3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		01F763D525B162EA00625DC3 /* dayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayTableViewCell.swift; sourceTree = "<group>"; };
+		0213009220FF4E3CB8BAD604 /* Pods_timepage_clone_timepage_cloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timepage_clone_timepage_cloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		109BA96CD6C6B0243C47774B /* Pods-timepage-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timepage-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-timepage-cloneTests/Pods-timepage-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		57BFE9CB54B1D0E99981DE39 /* Pods-timepage-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timepage-clone.debug.xcconfig"; path = "Target Support Files/Pods-timepage-clone/Pods-timepage-clone.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB649E9B26853882B0A6E1E /* Pods-timepage-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timepage-clone.release.xcconfig"; path = "Target Support Files/Pods-timepage-clone/Pods-timepage-clone.release.xcconfig"; sourceTree = "<group>"; };
+		7F6AA55695EE6E6A060AC65D /* Pods_timepage_cloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timepage_cloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B036C66FA747A9D8F5DA7D /* Pods_timepage_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timepage_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EA8B63CEF7ED7FD933E35D /* Pods-timepage-clone-timepage-cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timepage-clone-timepage-cloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-timepage-clone-timepage-cloneUITests/Pods-timepage-clone-timepage-cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5733C285E09649E4CE35B8E /* Pods-timepage-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timepage-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-timepage-cloneTests/Pods-timepage-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F85558E0E284B77F15E13580 /* Pods-timepage-clone-timepage-cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timepage-clone-timepage-cloneUITests.release.xcconfig"; path = "Target Support Files/Pods-timepage-clone-timepage-cloneUITests/Pods-timepage-clone-timepage-cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A380732399EE141CDE90C1 /* Pods_timepage_clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57DACA1B79AFAC06CA1490F /* Pods_timepage_cloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89BBA94494CD640D5144BF7 /* Pods_timepage_clone_timepage_cloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0154979A25B17DD100942192 /* Day Details Page */ = {
+			isa = PBXGroup;
+			children = (
+				0154979B25B17DEF00942192 /* dayDetailsViewController.swift */,
+				015497A325B1815700942192 /* classCollectionViewCell.swift */,
+				015497AF25B1930C00942192 /* todoCollectionViewCell.swift */,
+			);
+			path = "Day Details Page";
+			sourceTree = "<group>";
+		};
 		01F7637825B15C4800625DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +128,8 @@
 				01F7639A25B15C4B00625DC3 /* timepage-cloneTests */,
 				01F763A525B15C4B00625DC3 /* timepage-cloneUITests */,
 				01F7638225B15C4800625DC3 /* Products */,
+				78243DF1990BB8AE1F7CE84C /* Pods */,
+				1D99B98E847AC5D93E5A36D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +146,16 @@
 		01F7638325B15C4800625DC3 /* timepage-clone */ = {
 			isa = PBXGroup;
 			children = (
+				0154979A25B17DD100942192 /* Day Details Page */,
+				01F763D425B162C300625DC3 /* Home Page */,
 				01F7638425B15C4800625DC3 /* AppDelegate.swift */,
 				01F7638625B15C4800625DC3 /* SceneDelegate.swift */,
-				01F7638825B15C4800625DC3 /* ViewController.swift */,
 				01F7638A25B15C4800625DC3 /* Main.storyboard */,
 				01F7638D25B15C4A00625DC3 /* Assets.xcassets */,
 				01F7638F25B15C4A00625DC3 /* LaunchScreen.storyboard */,
 				01F7639225B15C4A00625DC3 /* Info.plist */,
+				01F763B725B15FBF00625DC3 /* Fonts */,
+				0154979525B16A9000942192 /* Colors.swift */,
 			);
 			path = "timepage-clone";
 			sourceTree = "<group>";
@@ -128,6 +178,50 @@
 			path = "timepage-cloneUITests";
 			sourceTree = "<group>";
 		};
+		01F763B725B15FBF00625DC3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				01F763B825B15FCD00625DC3 /* Roboto-Thin.ttf */,
+				01F763BD25B15FD600625DC3 /* Roboto-Regular.ttf */,
+				01F763C225B15FDF00625DC3 /* Roboto-Medium.ttf */,
+				01F763C725B15FE800625DC3 /* Roboto-Light.ttf */,
+				01F763CC25B15FF000625DC3 /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		01F763D425B162C300625DC3 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				01F7638825B15C4800625DC3 /* ViewController.swift */,
+				01F763D525B162EA00625DC3 /* dayTableViewCell.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		1D99B98E847AC5D93E5A36D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B036C66FA747A9D8F5DA7D /* Pods_timepage_clone.framework */,
+				0213009220FF4E3CB8BAD604 /* Pods_timepage_clone_timepage_cloneUITests.framework */,
+				7F6AA55695EE6E6A060AC65D /* Pods_timepage_cloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78243DF1990BB8AE1F7CE84C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57BFE9CB54B1D0E99981DE39 /* Pods-timepage-clone.debug.xcconfig */,
+				7EB649E9B26853882B0A6E1E /* Pods-timepage-clone.release.xcconfig */,
+				B7EA8B63CEF7ED7FD933E35D /* Pods-timepage-clone-timepage-cloneUITests.debug.xcconfig */,
+				F85558E0E284B77F15E13580 /* Pods-timepage-clone-timepage-cloneUITests.release.xcconfig */,
+				F5733C285E09649E4CE35B8E /* Pods-timepage-cloneTests.debug.xcconfig */,
+				109BA96CD6C6B0243C47774B /* Pods-timepage-cloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01F763AB25B15C4B00625DC3 /* Build configuration list for PBXNativeTarget "timepage-clone" */;
 			buildPhases = (
+				CDD098AAEE9465012818AB40 /* [CP] Check Pods Manifest.lock */,
 				01F7637D25B15C4800625DC3 /* Sources */,
 				01F7637E25B15C4800625DC3 /* Frameworks */,
 				01F7637F25B15C4800625DC3 /* Resources */,
+				AB293E3E85C9E9F9369717E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01F763AE25B15C4B00625DC3 /* Build configuration list for PBXNativeTarget "timepage-cloneTests" */;
 			buildPhases = (
+				09D6620904A86529FCFCAC70 /* [CP] Check Pods Manifest.lock */,
 				01F7639325B15C4B00625DC3 /* Sources */,
 				01F7639425B15C4B00625DC3 /* Frameworks */,
 				01F7639525B15C4B00625DC3 /* Resources */,
@@ -170,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01F763B125B15C4B00625DC3 /* Build configuration list for PBXNativeTarget "timepage-cloneUITests" */;
 			buildPhases = (
+				F212AD8B4D21A5D3E3AF1F75 /* [CP] Check Pods Manifest.lock */,
 				01F7639E25B15C4B00625DC3 /* Sources */,
 				01F7639F25B15C4B00625DC3 /* Frameworks */,
 				01F763A025B15C4B00625DC3 /* Resources */,
+				6C00A29F51C1078CB4CEFA25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +330,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F763B925B15FCD00625DC3 /* Roboto-Thin.ttf in Resources */,
 				01F7639125B15C4A00625DC3 /* LaunchScreen.storyboard in Resources */,
+				01F763C325B15FDF00625DC3 /* Roboto-Medium.ttf in Resources */,
+				01F763BE25B15FD600625DC3 /* Roboto-Regular.ttf in Resources */,
+				01F763C825B15FE800625DC3 /* Roboto-Light.ttf in Resources */,
 				01F7638E25B15C4A00625DC3 /* Assets.xcassets in Resources */,
+				01F763CD25B15FF000625DC3 /* Roboto-Bold.ttf in Resources */,
 				01F7638C25B15C4800625DC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,13 +357,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09D6620904A86529FCFCAC70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timepage-cloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C00A29F51C1078CB4CEFA25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timepage-clone-timepage-cloneUITests/Pods-timepage-clone-timepage-cloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timepage-clone-timepage-cloneUITests/Pods-timepage-clone-timepage-cloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timepage-clone-timepage-cloneUITests/Pods-timepage-clone-timepage-cloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB293E3E85C9E9F9369717E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timepage-clone/Pods-timepage-clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timepage-clone/Pods-timepage-clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timepage-clone/Pods-timepage-clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD098AAEE9465012818AB40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timepage-clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F212AD8B4D21A5D3E3AF1F75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timepage-clone-timepage-cloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01F7637D25B15C4800625DC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01F7638925B15C4800625DC3 /* ViewController.swift in Sources */,
+				015497A425B1815700942192 /* classCollectionViewCell.swift in Sources */,
+				0154979625B16A9000942192 /* Colors.swift in Sources */,
+				0154979C25B17DEF00942192 /* dayDetailsViewController.swift in Sources */,
+				015497B025B1930C00942192 /* todoCollectionViewCell.swift in Sources */,
 				01F7638525B15C4800625DC3 /* AppDelegate.swift in Sources */,
+				01F763D625B162EA00625DC3 /* dayTableViewCell.swift in Sources */,
 				01F7638725B15C4800625DC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +645,7 @@
 		};
 		01F763AC25B15C4B00625DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BFE9CB54B1D0E99981DE39 /* Pods-timepage-clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +665,7 @@
 		};
 		01F763AD25B15C4B00625DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB649E9B26853882B0A6E1E /* Pods-timepage-clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +685,7 @@
 		};
 		01F763AF25B15C4B00625DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5733C285E09649E4CE35B8E /* Pods-timepage-cloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +708,7 @@
 		};
 		01F763B025B15C4B00625DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109BA96CD6C6B0243C47774B /* Pods-timepage-cloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +731,7 @@
 		};
 		01F763B225B15C4B00625DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7EA8B63CEF7ED7FD933E35D /* Pods-timepage-clone-timepage-cloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +752,7 @@
 		};
 		01F763B325B15C4B00625DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85558E0E284B77F15E13580 /* Pods-timepage-clone-timepage-cloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
