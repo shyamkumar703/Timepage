@@ -8,5 +8,9 @@
 import UIKit
 
 class datePickerCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var view: UIView!
+    
+    override func awakeFromNib() {
+    }
     
 }

@@ -7,6 +7,7 @@
 
 import UIKit
 import Hero
+import UserNotifications
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -43,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
             
             var currCell = dateSrcArr[indexPath.row]
-            currCell.heroID = String(indexPath.row)
+            currCell.id = String(indexPath.row)
             cell.backView.hero.id = String(indexPath.row)
             cell.backView.hero.isEnabled = true
             
@@ -139,6 +140,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         plusButton.backgroundColor = Colors.lighterBlue
         plusButton.tintColor = .white
         
+        registerLocal()
+        scheduleLocal()
+        
         NotificationCenter.default.addObserver(self, selector: #selector(reloadData), name: NSNotification.Name(rawValue: "eventAdded"), object: nil)
     }
     
@@ -152,6 +156,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        if openDailyBrief {
+            tableView.selectRow(at: IndexPath(row: 365, section: 0), animated: false, scrollPosition: .none)
+        }
     }
     
     func clearView(_ alpha: CGFloat) {
@@ -201,6 +208,40 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if let destVC = segue.destination as? dayDetailsViewController {
             destVC.dayEvents = selectedHomeCell
         }
+    }
+    
+    //MARK:- NOTIFICATIONS
+    func registerLocal() {
+        let center = UNUserNotificationCenter.current()
+
+        center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+            if granted {
+                print("")
+            } else {
+                print("")
+            }
+        }
+    }
+    
+    func scheduleLocal() {
+        let center = UNUserNotificationCenter.current()
+
+        let content = UNMutableNotificationContent()
+        content.title = "Daily Brief"
+        content.body = "Your daily brief is ready"
+        content.categoryIdentifier = "alarm"
+        content.userInfo = ["customData": "fizzbuzz"]
+        content.sound = UNNotificationSound.default
+
+        var dateComponents = DateComponents()
+        dateComponents.hour = 8
+        dateComponents.minute = 0
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        center.removeAllPendingNotificationRequests()
+        center.add(request)
     }
     
 

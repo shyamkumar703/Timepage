@@ -7,10 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010B3FA725B4F22B001192DE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010B3FA625B4F22B001192DE /* Event.swift */; };
+		010B3FC125B6A602001192DE /* specialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010B3FC025B6A602001192DE /* specialTableViewCell.swift */; };
+		011EFBA225BBED120026A32E /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011EFBA125BBED120026A32E /* EventTableViewCell.swift */; };
+		011EFBB625BC094F0026A32E /* weatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011EFBB525BC094F0026A32E /* weatherDetailsViewController.swift */; };
+		011F163725B7FD45004CA613 /* selectDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F163625B7FD45004CA613 /* selectDayViewController.swift */; };
+		011F163C25B801F5004CA613 /* weekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F163B25B801F5004CA613 /* weekCollectionViewCell.swift */; };
+		012F5E6E25B3A536004F5A79 /* eventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F5E6D25B3A536004F5A79 /* eventDetailsViewController.swift */; };
+		0137A33A25BBC27F0040357D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137A33925BBC27F0040357D /* CalendarViewController.swift */; };
+		0137A33F25BBCF9C0040357D /* weekViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137A33E25BBCF9C0040357D /* weekViewCollectionViewCell.swift */; };
+		0137A34425BBCFA70040357D /* dateViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0137A34325BBCFA70040357D /* dateViewCollectionViewCell.swift */; };
+		0140D49325B2548E002308A4 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D49225B2548E002308A4 /* RootPageViewController.swift */; };
+		0140D49925B2670F002308A4 /* firstCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D49825B2670F002308A4 /* firstCalendarViewController.swift */; };
+		0140D4A125B27E78002308A4 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D4A025B27E78002308A4 /* Calendar.swift */; };
+		014B06B325B4092E00AFE6B3 /* BrandonGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014B06B225B4092E00AFE6B3 /* BrandonGrotesque-Bold.ttf */; };
+		014B06B825B4098800AFE6B3 /* BrandonGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014B06B725B4098800AFE6B3 /* BrandonGrotesque-Light.ttf */; };
+		014B06BD25B4121300AFE6B3 /* OnThisDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B06BC25B4121300AFE6B3 /* OnThisDay.swift */; };
 		0154979625B16A9000942192 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154979525B16A9000942192 /* Colors.swift */; };
 		0154979C25B17DEF00942192 /* dayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154979B25B17DEF00942192 /* dayDetailsViewController.swift */; };
 		015497A425B1815700942192 /* classCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015497A325B1815700942192 /* classCollectionViewCell.swift */; };
 		015497B025B1930C00942192 /* todoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015497AF25B1930C00942192 /* todoCollectionViewCell.swift */; };
+		01C67B7025B3EC8900D3D801 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C67B6F25B3EC8900D3D801 /* Weather.swift */; };
+		01C67B7525B3FE5200D3D801 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C67B7425B3FE5200D3D801 /* LaunchScreenViewController.swift */; };
+		01D28F3B25B42A3A00316F2B /* addEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D28F3A25B42A3A00316F2B /* addEventViewController.swift */; };
+		01D28F4025B43F9B00316F2B /* datePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D28F3F25B43F9B00316F2B /* datePickerCollectionViewCell.swift */; };
 		01F7638525B15C4800625DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7638425B15C4800625DC3 /* AppDelegate.swift */; };
 		01F7638725B15C4800625DC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7638625B15C4800625DC3 /* SceneDelegate.swift */; };
 		01F7638925B15C4800625DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7638825B15C4800625DC3 /* ViewController.swift */; };
@@ -48,11 +68,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010B3FA625B4F22B001192DE /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		010B3FC025B6A602001192DE /* specialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = specialTableViewCell.swift; sourceTree = "<group>"; };
+		011EFBA125BBED120026A32E /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		011EFBB525BC094F0026A32E /* weatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherDetailsViewController.swift; sourceTree = "<group>"; };
+		011F163625B7FD45004CA613 /* selectDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDayViewController.swift; sourceTree = "<group>"; };
+		011F163B25B801F5004CA613 /* weekCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekCollectionViewCell.swift; sourceTree = "<group>"; };
+		012F5E6D25B3A536004F5A79 /* eventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventDetailsViewController.swift; sourceTree = "<group>"; };
+		0137A33925BBC27F0040357D /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		0137A33E25BBCF9C0040357D /* weekViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weekViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		0137A34325BBCFA70040357D /* dateViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		0140D49225B2548E002308A4 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		0140D49825B2670F002308A4 /* firstCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstCalendarViewController.swift; sourceTree = "<group>"; };
+		0140D4A025B27E78002308A4 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		014B06B225B4092E00AFE6B3 /* BrandonGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		014B06B725B4098800AFE6B3 /* BrandonGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		014B06BC25B4121300AFE6B3 /* OnThisDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnThisDay.swift; sourceTree = "<group>"; };
 		0154979525B16A9000942192 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		0154979B25B17DEF00942192 /* dayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayDetailsViewController.swift; sourceTree = "<group>"; };
 		015497A325B1815700942192 /* classCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classCollectionViewCell.swift; sourceTree = "<group>"; };
 		015497AF25B1930C00942192 /* todoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoCollectionViewCell.swift; sourceTree = "<group>"; };
-		01F7638125B15C4800625DC3 /* timepage-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timepage-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C67B6F25B3EC8900D3D801 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		01C67B7425B3FE5200D3D801 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		01D28F3A25B42A3A00316F2B /* addEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEventViewController.swift; sourceTree = "<group>"; };
+		01D28F3F25B43F9B00316F2B /* datePickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		01F7638125B15C4800625DC3 /* Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F7638425B15C4800625DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F7638625B15C4800625DC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01F7638825B15C4800625DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,14 +151,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011F163525B7FD31004CA613 /* Select Day Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				011F163625B7FD45004CA613 /* selectDayViewController.swift */,
+				011F163B25B801F5004CA613 /* weekCollectionViewCell.swift */,
+			);
+			path = "Select Day Calendar";
+			sourceTree = "<group>";
+		};
+		012F5E6B25B3A51B004F5A79 /* Event Details */ = {
+			isa = PBXGroup;
+			children = (
+				012F5E6D25B3A536004F5A79 /* eventDetailsViewController.swift */,
+			);
+			path = "Event Details";
+			sourceTree = "<group>";
+		};
+		0140D49125B25478002308A4 /* Page View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0140D49225B2548E002308A4 /* RootPageViewController.swift */,
+				0137A33925BBC27F0040357D /* CalendarViewController.swift */,
+			);
+			path = "Page View Controller";
+			sourceTree = "<group>";
+		};
+		0140D49725B266FD002308A4 /* First Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				0140D49825B2670F002308A4 /* firstCalendarViewController.swift */,
+				0137A33E25BBCF9C0040357D /* weekViewCollectionViewCell.swift */,
+				0137A34325BBCFA70040357D /* dateViewCollectionViewCell.swift */,
+				011EFBA125BBED120026A32E /* EventTableViewCell.swift */,
+			);
+			path = "First Calendar";
+			sourceTree = "<group>";
+		};
 		0154979A25B17DD100942192 /* Day Details Page */ = {
 			isa = PBXGroup;
 			children = (
 				0154979B25B17DEF00942192 /* dayDetailsViewController.swift */,
 				015497A325B1815700942192 /* classCollectionViewCell.swift */,
 				015497AF25B1930C00942192 /* todoCollectionViewCell.swift */,
+				011EFBB525BC094F0026A32E /* weatherDetailsViewController.swift */,
 			);
 			path = "Day Details Page";
+			sourceTree = "<group>";
+		};
+		01C67B6E25B3EC7300D3D801 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0154979525B16A9000942192 /* Colors.swift */,
+				0140D4A025B27E78002308A4 /* Calendar.swift */,
+				01C67B6F25B3EC8900D3D801 /* Weather.swift */,
+				014B06BC25B4121300AFE6B3 /* OnThisDay.swift */,
+				010B3FA625B4F22B001192DE /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01D28F3925B42A2D00316F2B /* Add Event */ = {
+			isa = PBXGroup;
+			children = (
+				01D28F3A25B42A3A00316F2B /* addEventViewController.swift */,
+				01D28F3F25B43F9B00316F2B /* datePickerCollectionViewCell.swift */,
+				010B3FC025B6A602001192DE /* specialTableViewCell.swift */,
+			);
+			path = "Add Event";
 			sourceTree = "<group>";
 		};
 		01F7637825B15C4800625DC3 = {
@@ -136,7 +236,7 @@
 		01F7638225B15C4800625DC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01F7638125B15C4800625DC3 /* timepage-clone.app */,
+				01F7638125B15C4800625DC3 /* Time.app */,
 				01F7639725B15C4B00625DC3 /* timepage-cloneTests.xctest */,
 				01F763A225B15C4B00625DC3 /* timepage-cloneUITests.xctest */,
 			);
@@ -146,16 +246,22 @@
 		01F7638325B15C4800625DC3 /* timepage-clone */ = {
 			isa = PBXGroup;
 			children = (
+				011F163525B7FD31004CA613 /* Select Day Calendar */,
+				01D28F3925B42A2D00316F2B /* Add Event */,
+				012F5E6B25B3A51B004F5A79 /* Event Details */,
+				0140D49725B266FD002308A4 /* First Calendar */,
+				0140D49125B25478002308A4 /* Page View Controller */,
 				0154979A25B17DD100942192 /* Day Details Page */,
 				01F763D425B162C300625DC3 /* Home Page */,
 				01F7638425B15C4800625DC3 /* AppDelegate.swift */,
+				01C67B7425B3FE5200D3D801 /* LaunchScreenViewController.swift */,
 				01F7638625B15C4800625DC3 /* SceneDelegate.swift */,
 				01F7638A25B15C4800625DC3 /* Main.storyboard */,
 				01F7638D25B15C4A00625DC3 /* Assets.xcassets */,
 				01F7638F25B15C4A00625DC3 /* LaunchScreen.storyboard */,
 				01F7639225B15C4A00625DC3 /* Info.plist */,
+				01C67B6E25B3EC7300D3D801 /* Model */,
 				01F763B725B15FBF00625DC3 /* Fonts */,
-				0154979525B16A9000942192 /* Colors.swift */,
 			);
 			path = "timepage-clone";
 			sourceTree = "<group>";
@@ -186,6 +292,8 @@
 				01F763C225B15FDF00625DC3 /* Roboto-Medium.ttf */,
 				01F763C725B15FE800625DC3 /* Roboto-Light.ttf */,
 				01F763CC25B15FF000625DC3 /* Roboto-Bold.ttf */,
+				014B06B725B4098800AFE6B3 /* BrandonGrotesque-Light.ttf */,
+				014B06B225B4092E00AFE6B3 /* BrandonGrotesque-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -241,7 +349,7 @@
 			);
 			name = "timepage-clone";
 			productName = "timepage-clone";
-			productReference = 01F7638125B15C4800625DC3 /* timepage-clone.app */;
+			productReference = 01F7638125B15C4800625DC3 /* Time.app */;
 			productType = "com.apple.product-type.application";
 		};
 		01F7639625B15C4B00625DC3 /* timepage-cloneTests */ = {
@@ -331,6 +439,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F763B925B15FCD00625DC3 /* Roboto-Thin.ttf in Resources */,
+				014B06B325B4092E00AFE6B3 /* BrandonGrotesque-Bold.ttf in Resources */,
+				014B06B825B4098800AFE6B3 /* BrandonGrotesque-Light.ttf in Resources */,
 				01F7639125B15C4A00625DC3 /* LaunchScreen.storyboard in Resources */,
 				01F763C325B15FDF00625DC3 /* Roboto-Medium.ttf in Resources */,
 				01F763BE25B15FD600625DC3 /* Roboto-Regular.ttf in Resources */,
@@ -465,13 +575,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012F5E6E25B3A536004F5A79 /* eventDetailsViewController.swift in Sources */,
+				01D28F4025B43F9B00316F2B /* datePickerCollectionViewCell.swift in Sources */,
+				01D28F3B25B42A3A00316F2B /* addEventViewController.swift in Sources */,
+				0140D4A125B27E78002308A4 /* Calendar.swift in Sources */,
 				01F7638925B15C4800625DC3 /* ViewController.swift in Sources */,
 				015497A425B1815700942192 /* classCollectionViewCell.swift in Sources */,
+				0137A34425BBCFA70040357D /* dateViewCollectionViewCell.swift in Sources */,
 				0154979625B16A9000942192 /* Colors.swift in Sources */,
+				011EFBA225BBED120026A32E /* EventTableViewCell.swift in Sources */,
 				0154979C25B17DEF00942192 /* dayDetailsViewController.swift in Sources */,
+				01C67B7525B3FE5200D3D801 /* LaunchScreenViewController.swift in Sources */,
+				010B3FC125B6A602001192DE /* specialTableViewCell.swift in Sources */,
+				011EFBB625BC094F0026A32E /* weatherDetailsViewController.swift in Sources */,
+				014B06BD25B4121300AFE6B3 /* OnThisDay.swift in Sources */,
+				010B3FA725B4F22B001192DE /* Event.swift in Sources */,
+				011F163C25B801F5004CA613 /* weekCollectionViewCell.swift in Sources */,
 				015497B025B1930C00942192 /* todoCollectionViewCell.swift in Sources */,
+				0137A33A25BBC27F0040357D /* CalendarViewController.swift in Sources */,
+				011F163725B7FD45004CA613 /* selectDayViewController.swift in Sources */,
+				0140D49925B2670F002308A4 /* firstCalendarViewController.swift in Sources */,
+				01C67B7025B3EC8900D3D801 /* Weather.swift in Sources */,
 				01F7638525B15C4800625DC3 /* AppDelegate.swift in Sources */,
+				0140D49325B2548E002308A4 /* RootPageViewController.swift in Sources */,
 				01F763D625B162EA00625DC3 /* dayTableViewCell.swift in Sources */,
+				0137A33F25BBCF9C0040357D /* weekViewCollectionViewCell.swift in Sources */,
 				01F7638725B15C4800625DC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,12 +780,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PM79C3BXFD;
 				INFOPLIST_FILE = "timepage-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shyam-Kumar.timepage-clone";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Time;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -672,12 +801,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PM79C3BXFD;
 				INFOPLIST_FILE = "timepage-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shyam-Kumar.timepage-clone";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Time;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

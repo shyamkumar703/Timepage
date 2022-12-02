@@ -11,6 +11,11 @@ class LaunchScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Weather.fetchHourlyWeather {
+            Weather.fetchWeatherForecast({
+                self.performSegue(withIdentifier: "toHome", sender: self)
+            })
+        }
 
         // Do any additional setup after loading the view.
     }

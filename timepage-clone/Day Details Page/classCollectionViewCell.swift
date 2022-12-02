@@ -11,6 +11,7 @@ class classCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var className: UILabel!
     @IBOutlet weak var time: UILabel!
     @IBOutlet weak var colorView: UIView!
+    var idValues: IDValues? = nil
     
     override func awakeFromNib() {
         colorView.layer.cornerRadius = 2
